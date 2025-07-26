@@ -4915,3 +4915,18 @@ html, body {
 .about-portrait {
     border: 2px solid blue; /* Make image visible */
 }
+
+/* Safari/iOS specific fixes */
+@supports (-webkit-touch-callout: none) {
+    .about-portrait {
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+       transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+    }
+    
+    .portrait-frame {
+        perspective: 1000px;
+        -webkit-perspective: 1000px;
+    }
+}
