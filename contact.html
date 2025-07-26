@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Ndigaya | Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cosmic Background -->
+    <div class="cosmic-bg">
+        <div class="stars" id="stars-container"></div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                <img src="logo.png" alt="Fortune Ndigaya Logo" class="header-logo">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="index.html#about-preview">About</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact-page">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="contact-container" style="max-width: 1200px; margin: 0 auto;">
+                <div class="contact-info" style="background: rgba(45, 45, 45, 0.8); padding: 40px; border-radius: 15px; backdrop-filter: blur(5px); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);">
+                    <h3 style="font-size: 1.8rem; margin-bottom: 30px; color: #6c63ff;">Let's Connect</h3>
+                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 40px; color: #f8f9fa;">
+                        I'm passionate about creating digital experiences that make a difference.
+                    </p>
+
+                    <div class="social-links">
+                        <h4 style="font-size: 1.2rem; margin-bottom: 20px; color: #6c63ff;">Follow My Journey</h4>
+                        <div style="display: flex; gap: 15px;">
+                            <a href="https://www.linkedin.com/in/fortunendigaya/" target="_blank" style="width: 45px; height: 45px; background: rgba(108, 99, 255, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                                <i class="fab fa-linkedin-in" style="font-size: 1.2rem; color: #6c63ff;"></i>
+                            </a>
+                            <a href="https://github.com/fortunendigaya" target="_blank" style="width: 45px; height: 45px; background: rgba(108, 99, 255, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                                <i class="fab fa-github" style="font-size: 1.2rem; color: #6c63ff;"></i>
+                            </a>
+                            <a href="https://web.facebook.com/fortunevansill" target="_blank" style="width: 45px; height: 45px; background: rgba(108, 99, 255, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                                <i class="fab fa-facebook-f" style="font-size: 1.2rem; color: #6c63ff;"></i>
+                            </a>
+                            <a href="https://www.instagram.com/fortunendigaya" target="_blank" style="width: 45px; height: 45px; background: rgba(108, 99, 255, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+                                <i class="fab fa-instagram" style="font-size: 1.2rem; color: #6c63ff;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form" style="background: rgba(45, 45, 45, 0.8); padding: 40px; border-radius: 15px; backdrop-filter: blur(5px); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);">
+                    <h3 style="font-size: 1.8rem; margin-bottom: 30px; color: #6c63ff;">Start a Conversation</h3>
+                    <p style="font-size: 1.1rem; margin-bottom: 30px; color: #f8f9fa;">
+                        Fill out the form below and I'll get back to you soon
+                    </p>
+                    
+                    <form>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                            <div class="form-group">
+                                <label for="name" style="display: block; margin-bottom: 8px; font-weight: 500; color: #f8f9fa;">Full Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Your name..." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" style="display: block; margin-bottom: 8px; font-weight: 500; color: #f8f9fa;">Email</label>
+                                <input type="email" id="email" class="form-control" placeholder="Your Email..." required>
+                            </div>
+                        </div>
+                        <div class="form-group" style="margin-bottom: 20px;">
+                            <label for="subject" style="display: block; margin-bottom: 8px; font-weight: 500; color: #f8f9fa;">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Subject..." required>
+                        </div>
+                        <div class="form-group" style="margin-bottom: 30px;">
+                            <label for="message" style="display: block; margin-bottom: 8px; font-weight: 500; color: #f8f9fa;">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Your message..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%; padding: 15px; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; gap: 10px;">
+                            Send Message <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+<footer class="cosmic-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="logo.png" alt="Fortune Ndigaya Logo" class="footer-logo">
+                <p>I build cool stuff for the web. Let’s create something awesome together!</p>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/fortunendigaya/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/fortunendigaya" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://web.facebook.com/fortunevansill" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/fortunendigaya" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                
+                <div class="newsletter-form">
+                    <h4>Subscribe to my newsletter</h4>
+                    <form class="form-group">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="links-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="projects.html"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="pricing.html"><i class="fas fa-chevron-right"></i> Pricing</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="links-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> E-Commerce</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> UI/UX Design</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Digital Strategy</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Maintenance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="links-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="mailto:fortunendigaya@gmail.com"><i class="fas fa-envelope"></i> fortunendigaya@gmail.com</a></li>
+                        <li><a href="tel:+243857458594"><i class="fas fa-phone"></i> +243 857 458 594</a></li>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Kinshasa, Congo</a></li>
+                        <li><a href="contact.html"><i class="fas fa-calendar-alt"></i> Book Consultation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Fortune Ndigaya. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Tab functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tabBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                document.querySelectorAll('.pricing-grid').forEach(grid => {
+                    grid.classList.remove('active');
+                });
+                document.getElementById(`${btn.dataset.tab}-tab`).classList.add('active');
+            });
+        });
+
+        // FAQ accordion
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                question.parentElement.classList.toggle('active');
+                answer.style.maxHeight = question.parentElement.classList.contains('active') 
+                    ? answer.scrollHeight + 'px' 
+                    : 0;
+                icon.style.transform = question.parentElement.classList.contains('active')
+                    ? 'rotate(180deg)'
+                    : 'rotate(0)';
+            });
+        });
+
+        // Auto-update copyright year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

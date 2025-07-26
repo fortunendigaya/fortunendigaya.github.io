@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Ndigaya | Premium Digital Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cosmic Background -->
+    <div class="cosmic-bg">
+        <div class="stars" id="stars-container"></div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                <img src="logo.png" alt="Fortune Ndigaya Logo" class="header-logo">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="index.html#about-preview">About</a></li>
+                    <li><a href="pricing.html" class="active">Pricing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Pricing Hero -->
+    <section class="pricing-hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="section-badge">PRICING</div>
+                    <h1>Simple, transparent <span class="luxury-highlight">pricing</span></h1>
+                    <p class="hero-subtitle">Invest in premium digital solutions tailored to your business needs</p>
+                    <div class="hero-cta">
+                        <a href="#pricing" class="btn primary">View Packages</a>
+                        <a href="contact.html" class="btn secondary">Get Consultation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="luxury-pricing-section">
+        <div class="bg-text" aria-hidden="true">VALUE</div>
+        <div class="container">
+            <div class="section-header-center">
+                <h2 class="luxury-section-title">Choose Your Digital Solution</h2>
+                <div class="luxury-divider-center"></div>
+                <p class="section-subtitle">Select the package that aligns with your business goals</p>
+            </div>
+
+            <div class="pricing-tabs">
+                <div class="tabs-container">
+                    <button class="tab-btn active" data-tab="web">
+                        <i class="fas fa-globe"></i> Web Development
+                    </button>
+                    <button class="tab-btn" data-tab="ecommerce">
+                        <i class="fas fa-shopping-cart"></i> E-Commerce
+                    </button>
+                    <button class="tab-btn" data-tab="custom">
+                        <i class="fas fa-cogs"></i> Custom Solutions
+                    </button>
+                </div>
+            </div>
+
+            <div class="pricing-grid active" id="web-tab">
+                <!-- Starter Package -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <div class="package-tag essential">Essential</div>
+                        <h3>Starter Presence</h3>
+                        <div class="price-container">
+                            <span class="price">$299</span>
+                            <span class="price-note">One-time payment (no recurring fees)</span>
+                        </div>
+                        <p class="package-description">Perfect for new businesses establishing their online identity with a professional web presence</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> 5 Custom Designed Pages</li>
+                        <li><i class="fas fa-check"></i> Mobile-First Responsive Design</li>
+                        <li><i class="fas fa-check"></i> Basic SEO Optimization</li>
+                        <li><i class="fas fa-check"></i> Contact Form Integration</li>
+                        <li><i class="fas fa-check"></i> 1 Month Technical Support</li>
+                        <li><i class="fas fa-check"></i> Social Media Integration</li>
+                    </ul>
+                    <button class="pricing-cta">
+                        <span>Get Started</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <div class="card-decoration"></div>
+                </div>
+                
+                <!-- Popular Package -->
+                <div class="pricing-card popular">
+                    <div class="popular-badge">
+                        <div class="badge-content">
+                            <i class="fas fa-star"></i>
+                            <span>MOST POPULAR</span>
+                        </div>
+                    </div>
+                    <div class="pricing-header">
+                        <div class="package-tag professional">Professional</div>
+                        <h3>Business Growth</h3>
+                        <div class="price-container">
+                            <span class="price">$399</span>
+                            <span class="price-note">one-time fee</span>
+                        </div>
+                        <p class="package-description">Comprehensive solution for growing businesses</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> 10-15 Page Dynamic Website</li>
+                        <li><i class="fas fa-check"></i> CMS Integration (WordPress)</li>
+                        <li><i class="fas fa-check"></i> Advanced SEO Strategy</li>
+                        <li><i class="fas fa-check"></i> Analytics Dashboard</li>
+                        <li><i class="fas fa-check"></i> 3 Months Premium Support</li>
+                        <li><i class="fas fa-check"></i> Speed Optimization</li>
+                        <li><i class="fas fa-check"></i> Basic Branding Package</li>
+                    </ul>
+                    <button class="pricing-cta primary">
+                        <span>Choose Plan</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <div class="card-decoration"></div>
+                </div>
+                
+                <!-- Premium Package -->
+                <div class="pricing-card premium">
+                    <div class="pricing-header">
+                        <div class="package-tag enterprise">Enterprise</div>
+                        <h3>Custom Solution</h3>
+                        <div class="price-container">
+                            <span class="price">Custom</span>
+                            <span class="price-note">Tailored pricing for your specific needs</span>
+                        </div>
+                        <p class="package-description">Bespoke digital ecosystem for your business</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Fully Custom Web Application</li>
+                        <li><i class="fas fa-check"></i> User Management System</li>
+                        <li><i class="fas fa-check"></i> API Integrations</li>
+                        <li><i class="fas fa-check"></i> Premium Hosting Setup</li>
+                        <li><i class="fas fa-check"></i> Ongoing Maintenance</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                        <li><i class="fas fa-check"></i> Monthly Performance Reports</li>
+                    </ul>
+                    <button class="pricing-cta premium-cta">
+                        <span>Get Custom Quote</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <div class="card-decoration"></div>
+                </div>
+            </div>
+
+            <!-- Comparison Table -->
+            <div class="comparison-section">
+                <h3>Detailed Feature Comparison</h3>
+                <div class="comparison-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Starter</th>
+                                <th>Professional</th>
+                                <th>Enterprise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Number of Pages</td>
+                                <td>5</td>
+                                <td>10-15</td>
+                                <td>Unlimited</td>
+                            </tr>
+                            <tr>
+                                <td>Support Duration</td>
+                                <td>1 Month</td>
+                                <td>3 Months</td>
+                                <td>Ongoing</td>
+                            </tr>
+                            <tr>
+                                <td>SEO Optimization</td>
+                                <td>Basic</td>
+                                <td>Advanced</td>
+                                <td>Premium</td>
+                            </tr>
+                            <tr>
+                                <td>Performance Optimization</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Custom Functionality</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td>Limited</td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Testimonials -->
+            <div class="testimonials-section">
+                <h3>What Our Clients Say</h3>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"As a CEO in the healthcare field, establishing a strong online presence was a top priority for us and Fortune played a key role in making that happen. His work made a real difference."</p>
+                            <div class="client-info">
+                                <div class="client-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="client-details">
+                                    <h4>Munyaradzi Chikondo</h4>
+                                    <p>CEO, Cortex Health</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Working with Fortune was a game-changer for our e-commerce business. His attention to details is amazing"</p>
+                            <div class="client-info">
+                                <div class="client-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="client-details">
+                                    <h4>Yvana Sendwe</h4>
+                                    <p>Director, Yeto</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="pricing-cta-section">
+                <div class="cta-content">
+                    <h2>Ready to transform your digital presence?</h2>
+                    <p>Get started with a solution tailored to your specific business needs</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="cta-btn primary">
+                            <i class="fas fa-calendar-alt"></i> Book Free Consultation
+                        </a>
+                        <a href="tel:+243857458594" class="cta-btn secondary">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="cosmic-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="logo.png" alt="Fortune Ndigaya Logo" class="footer-logo">
+                <p>I build cool stuff for the web. Let’s create something awesome together!</p>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/fortunendigaya/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/fortunendigaya" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://web.facebook.com/fortunevansill" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/fortunendigaya" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                
+                <div class="newsletter-form">
+                    <h4>Subscribe to my newsletter</h4>
+                    <form class="form-group">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="links-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="projects.html"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="pricing.html"><i class="fas fa-chevron-right"></i> Pricing</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="links-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> E-Commerce</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> UI/UX Design</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Digital Strategy</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Maintenance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="links-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="mailto:fortunendigaya@gmail.com"><i class="fas fa-envelope"></i> fortunendigaya@gmail.com</a></li>
+                        <li><a href="tel:+243857458594"><i class="fas fa-phone"></i> +243 857 458 594</a></li>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Kinshasa, Congo</a></li>
+                        <li><a href="contact.html"><i class="fas fa-calendar-alt"></i> Book Consultation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Fortune Ndigaya. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Tab functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tabBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                document.querySelectorAll('.pricing-grid').forEach(grid => {
+                    grid.classList.remove('active');
+                });
+                document.getElementById(`${btn.dataset.tab}-tab`).classList.add('active');
+            });
+        });
+
+        // FAQ accordion
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                question.parentElement.classList.toggle('active');
+                answer.style.maxHeight = question.parentElement.classList.contains('active') 
+                    ? answer.scrollHeight + 'px' 
+                    : 0;
+                icon.style.transform = question.parentElement.classList.contains('active')
+                    ? 'rotate(180deg)'
+                    : 'rotate(0)';
+            });
+        });
+
+        // Auto-update copyright year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
