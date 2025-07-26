@@ -4906,3 +4906,12 @@ html, body {
     }
 }
 
+/* Temporary debug styles */
+.about-portrait-column {
+    border: 2px solid red; /* Make container visible */
+    background-color: rgba(255,0,0,0.1); /* Semi-transparent red */
+}
+
+.about-portrait {
+    border: 2px solid blue; /* Make image visible */
+}
