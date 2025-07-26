@@ -4870,6 +4870,39 @@ html, body {
     width: 100%;
 }
 
+/* About Section Portrait Image */
+.about-portrait {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
 
+.portrait-frame {
+    position: relative;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
 
+@media (max-width: 768px) {
+    .about-portrait {
+        max-width: 280px;
+    }
+    
+    .modern-about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .about-portrait-column {
+        order: -1; /* Moves image to top on mobile */
+        text-align: center;
+    }
+}
 
